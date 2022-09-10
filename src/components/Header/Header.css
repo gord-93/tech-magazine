@@ -1,0 +1,55 @@
+.header {
+  width: 980px;
+  height: 40px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top: none;
+}
+
+.header__links {
+  width: 420px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+} 
+
+.header__link {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+  cursor: pointer;
+}
+
+.header__link:hover {
+  transform: scale(1.1);
+}
+
+.header__profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 0 0;
+}
+
+.header__avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+.header__username {
+  font-size: 18px;
+}
