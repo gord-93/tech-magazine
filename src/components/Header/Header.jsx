@@ -11,7 +11,7 @@ function Header(props) {
         <p to="/news" className="header__link">Новости</p>
       </div>
       <div className="header__profile">
-        <img className="header__avatar" src="*" alt="*" />
+        <img className="header__avatar" src="https://www.iguides.ru/upload/medialibrary/9f8/9f8fdff471b7d281f81f694c100b5adc.png" alt="*" />
         <p className="header__username">admin</p>
       </div>
     </header>

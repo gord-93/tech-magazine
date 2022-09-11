@@ -1,3 +1,4 @@
+import Cards from "../Cards/Cards";
 import Header from "../Header/Header";
 import Magazine from "../Magazine/Magazine";
 
@@ -6,6 +7,7 @@ function App() {
     <section className="app">
       <Header />
       <Magazine />
+      <Cards />
     </section>
   )
 }

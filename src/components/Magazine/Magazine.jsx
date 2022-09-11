@@ -1,11 +1,12 @@
-import magImg from '../../images/mag-01.jpeg';
+import magImg from '../../images/mag-01.png';
 
 function Magazine(props) {
   return (
     <section className="magazine">
       <div className="magazine__container">
         <div className="magazine__top-long-area">
-          <h1 className="magazine__title">Tech-Magazine</h1>
+          <p className='magazine__time'>Sep 2022</p>
+          <h1 className="magazine__title">Game-Magazine</h1>
         </div>
         <div className="magazine__bottom-container">
           <div className="magazine__left-short-area">

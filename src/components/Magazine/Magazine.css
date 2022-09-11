@@ -1,7 +1,7 @@
 .magazine {
   width: 980px;
   height: 1024px;
-  margin: 100px 0 0;
+  margin: 50px 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,9 +11,13 @@
 .magazine__container {
   width: 720px;
   height: 100%;
-  background-color: black;
+  background: linear-gradient(black, rgb(19, 195, 218));
   margin: 0 auto;
-  box-shadow: 20px 20px 20px gray;
+  box-sizing: content-box;
+  border: 2px solid black;
+  border-left: none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .magazine__top-long-area {
@@ -21,7 +25,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  position: relative;
 }
 
 .magazine__bottom-container {
@@ -32,7 +36,7 @@
 }
 
 .magazine__left-short-area {
-  width: 50%;
+  width: 360px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -40,7 +44,7 @@
 }
 
 .magazine__right-short-area {
-  width: 50%;
+  width: 360px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -59,12 +63,13 @@
 }
 
 .magazine__title {
-  margin: 0;
-  font-size: 90px;
-  font-weight: bolder;
+  margin: 60px auto 0;
+  z-index: 1;
+  font-size: 80px;
+  font-weight: 900;
   text-decoration: underline;
   color: yellow;
-  z-index: 3;
+  font-family: 'Orbitron'; 
 }
 
 .magazine__links {
@@ -74,6 +79,7 @@
   align-items: flex-start;
   margin: 0 auto;
   color: white;
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .magazine__link {
@@ -83,6 +89,9 @@
   z-index: 3;
   margin: 0;
   width: max-content;
+  text-decoration: underline;
+  font-family: 'Orbitron'; 
+  font-weight: 500px;
 }
 
 .magazine__link-text {
@@ -97,10 +106,10 @@
 }
 
 .magazine__links_place_right {
-  width: 240px;
-  text-align: end;
+  width: 200px;
   align-items: flex-end;
-  margin: 0 10px 0 0;
+  margin: 0 20px 0 0;
+  z-index: 1;
 }
 
 .magazine__link_size_big {
@@ -110,8 +119,17 @@
 
 .magazine__link-text_colored_pink {
   font-size: 20px;
-  text-transform: uppercase;
-  font-style: italic;
   height: 690px;
   overflow: hidden;
+  text-align: justify;
+}
+
+.magazine__time {
+  color: yellowgreen;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: uppercase;
 }

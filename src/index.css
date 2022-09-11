@@ -1,6 +1,16 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/Inter/inter.css);
+@import url(./vendor/fonts/Orbitron/Orbitron.css);
 @import url(./components/App/App.css);
 @import url(./components/Header/Header.css);
 @import url(./components/Logo/Logo.css);
 @import url(./components/Magazine/Magazine.css);
+@import url(./components/Cards/Cards.css);
+@import url(./components/Card/Card.css);
+
+@font-face {
+  font-family: "Simpleoak-RpP3o";
+  src: url(../src/vendor/fonts/Simpleoak/Simpleoak-RpP3o.ttf);
+  font-style: normal; 
+  font-weight: normal; 
+}

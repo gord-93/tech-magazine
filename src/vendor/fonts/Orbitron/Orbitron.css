@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./Orbitron-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: url(./Orbitron-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: url(./Orbitron-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url(./Orbitron-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+  src: url(./Orbitron-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+  src: url(./Orbitron-Black.ttf);
+}
