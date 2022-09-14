@@ -29,8 +29,8 @@ function Magazine(props) {
             </div>
           </div>
         </div>
+        <img src={magImg} alt="" className="magazine__image" />
       </div>
-      <img src={magImg} alt="" className="magazine__image" />
     </section>
   )
 }
