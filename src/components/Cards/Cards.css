@@ -1,5 +1,5 @@
 .cards {
-  width: 1280px;
+  width: 100%;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
